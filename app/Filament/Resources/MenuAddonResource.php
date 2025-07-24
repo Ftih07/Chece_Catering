@@ -33,8 +33,9 @@ class MenuAddonResource extends Resource
     protected static ?string $modelLabel = 'Menu Add-on';
 
     protected static ?string $pluralModelLabel = 'Menu Add-ons';
+    protected static ?string $navigationGroup = 'Menu Management';
 
-    protected static ?int $navigationSort = 3;
+    protected static ?int $navigationSort = 2;
 
     public static function form(Form $form): Form
     {

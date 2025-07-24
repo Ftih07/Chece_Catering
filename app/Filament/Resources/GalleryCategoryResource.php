@@ -68,7 +68,7 @@ class GalleryCategoryResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
-            ->columns([ 
+            ->columns([
                 Tables\Columns\TextColumn::make('name')
                     ->label('Category Name')
                     ->searchable()
@@ -240,5 +240,25 @@ class GalleryCategoryResource extends Resource
     public static function getGlobalSearchAttributes(): array
     {
         return ['name', 'description', 'slug'];
+    }
+
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
+
+    public static function getNavigationBadgeColor(): ?string
+    {
+        $count = static::getModel()::count();
+
+        if ($count > 10) {
+            return 'success';
+        }
+
+        if ($count > 5) {
+            return 'warning';
+        }
+
+        return 'primary';
     }
 }

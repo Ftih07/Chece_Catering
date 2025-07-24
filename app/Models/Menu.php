@@ -16,6 +16,18 @@ class Menu extends Model
         return $this->belongsTo(MenuSubcategory::class, 'menu_subcategory_id');
     }
 
+    public function category()
+    {
+        return $this->hasOneThrough(
+            MenuCategory::class,
+            MenuSubcategory::class,
+            'id', // Foreign key di subcategory -> menu_category_id
+            'id', // Foreign key di category -> id
+            'menu_subcategory_id', // Foreign key di menu
+            'menu_category_id' // Foreign key di subcategory
+        );
+    }
+
     public function variants()
     {
         return $this->hasMany(MenuVariant::class);

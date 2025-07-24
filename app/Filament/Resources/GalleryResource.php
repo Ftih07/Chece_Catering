@@ -337,4 +337,24 @@ class GalleryResource extends Resource
             'Category' => $record->category?->name,
         ];
     }
+
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
+
+    public static function getNavigationBadgeColor(): ?string
+    {
+        $count = static::getModel()::count();
+
+        if ($count > 10) {
+            return 'success';
+        }
+
+        if ($count > 5) {
+            return 'warning';
+        }
+
+        return 'primary';
+    }
 }

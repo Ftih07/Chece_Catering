@@ -623,7 +623,7 @@
                 </div>
                 @else
                 <div class="sidebar-placeholder">
-                    <img src="{{ asset('assets/image/sidebar-placeholder.png') }}"
+                    <img src="{{ asset('assets/images/menu/sidebar-placeholder.png') }}"
                         alt="Sidebar Placeholder"
                         style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
                 </div>
@@ -787,6 +787,8 @@
             document.body.classList.add('fade-in-up');
         });
     </script>
+
+    @include('partials.floating-order-button')
 
 </body>
 

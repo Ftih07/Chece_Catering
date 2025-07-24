@@ -33,6 +33,7 @@ class MenuCategoryResource extends Resource
     protected static ?string $modelLabel = 'Menu Category';
 
     protected static ?string $pluralModelLabel = 'Menu Categories';
+    protected static ?string $navigationGroup = 'Menu Management';
 
     protected static ?int $navigationSort = 1;
 

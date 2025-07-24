@@ -294,10 +294,12 @@
 
                         <!-- Office -->
                         <div class="card border-2 border-gray-300 shadow-lg card-hover">
-                            <div class="card-body">
-                                <strong class="text-red-500 font-weight-bold">Office:</strong><br />
-                                <span class="text-gray-700">CHECHE CATERING, Perum griya satria indah blok e 1, Karangmiri, Sumampir, Kec. Purwokerto Utara, Kabupaten Banyumas, Jawa Tengah</span>
-                            </div>
+                            <a href="https://maps.app.goo.gl/krGEXjrCUDrGT6iz5" target="_blank" class="text-decoration-none">
+                                <div class="card-body">
+                                    <strong class="text-red-500 font-weight-bold">Office:</strong><br />
+                                    <span class="text-gray-700">CHECHE CATERING, Perum griya satria indah blok e 1, Karangmiri, Sumampir, Kec. Purwokerto Utara, Kabupaten Banyumas, Jawa Tengah</span>
+                                </div>
+                            </a>
                         </div>
 
                         <!-- Open Hours -->
@@ -308,36 +310,40 @@
                             </div>
                         </div>
 
-                        <!-- Phone -->
+                        <!-- WhatsApp -->
                         <div class="card border-2 border-gray-300 shadow-lg card-hover">
-                            <div class="card-body">
-                                <strong class="text-red-500 font-weight-bold">Telephon:</strong><br />
-                                <span class="text-gray-700">+62 859 - 5677 - 7138</span>
-                            </div>
+                            <a href="https://wa.me/6285956777138" target="_blank" class="text-decoration-none">
+                                <div class="card-body">
+                                    <strong class="text-red-500 font-weight-bold">Telepon:</strong><br />
+                                    <span class="text-gray-700">+62 859-5677-7138</span>
+                                </div>
+                            </a>
                         </div>
 
                         <!-- Email -->
                         <div class="card border-2 border-gray-300 shadow-lg card-hover">
-                            <div class="card-body">
-                                <strong class="text-red-500 font-weight-bold">Contact Us:</strong><br />
-                                <span class="text-gray-700">chechecatering@gmail.com</span>
-                            </div>
+                            <a href="mailto:chechecatering@gmail.com" class="text-decoration-none">
+                                <div class="card-body">
+                                    <strong class="text-red-500 font-weight-bold">Email:</strong><br />
+                                    <span class="text-gray-700">chechecatering@gmail.com</span>
+                                </div>
+                            </a>
                         </div>
 
                         <!-- Social Media -->
                         <div class="card border-2 border-gray-300 shadow-lg card-hover">
-                            <div class="card-body d-flex flex-column flex-sm-row align-items-center justify-content-between gap-3">
-                                <div class="text-center text-sm-start">
-                                    <span class="text-gray-700 font-weight-medium">&copy; 2024 Cheche Catering. All rights reserved.</span>
-                                </div>
-                                <div class="d-flex align-items-center">
-                                    <a href="https://lynk.id/cheche_catering" target="_blank" class="text-decoration-none">
+                            <a href="https://lynk.id/cheche_catering" target="_blank" class="text-decoration-none">
+                                <div class="card-body d-flex flex-column flex-sm-row align-items-center justify-content-between gap-3">
+                                    <div class="text-center text-sm-start">
+                                        <span class="text-gray-700 font-weight-medium">&copy; 2025 Cheche Catering. All rights reserved.</span>
+                                    </div>
+                                    <div class="d-flex align-items-center">
                                         <img src="assets/images/icon/website-icon.svg" alt="Website"
                                             class="social-icon rounded-circle p-2 bg-white shadow-md"
                                             style="height: 42px; width: 42px;" />
-                                    </a>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -424,6 +430,8 @@
             document.body.classList.add('fade-in-up');
         });
     </script>
+
+    @include('partials.floating-order-button')
 
 </body>
 

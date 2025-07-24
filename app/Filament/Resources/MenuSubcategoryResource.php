@@ -37,8 +37,9 @@ class MenuSubcategoryResource extends Resource
     protected static ?string $modelLabel = 'Menu Subcategory';
 
     protected static ?string $pluralModelLabel = 'Menu Subcategories';
+    protected static ?string $navigationGroup = 'Menu Management';
 
-    protected static ?int $navigationSort = 2;
+    protected static ?int $navigationSort = 3;
 
     public static function form(Form $form): Form
     {

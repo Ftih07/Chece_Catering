@@ -64,7 +64,7 @@
         @endif
     " />
     <meta name="twitter:image" content="{{ asset('assets/images/og-gallery-image.jpg') }}" />
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&family=Satisfy:wght@400&display=swap" rel="stylesheet">
 
@@ -563,6 +563,9 @@
             }
         });
     </script>
+
+    @include('partials.floating-order-button')
+
 </body>
 
 </html>
