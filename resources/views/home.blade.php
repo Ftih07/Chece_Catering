@@ -14,14 +14,14 @@
 
     <meta property="og:title" content="Cheche Catering: Katering Terbaik untuk Pernikahan & Acara Anda di Purwokerto" />
     <meta property="og:description" content="Cheche Catering menyediakan jasa katering pernikahan, ulang tahun, meeting, dan event lainnya di Purwokerto. Sajian lezat, higienis, dan pelayanan profesional sejak 2006." />
-    <meta property="og:image" content="{{ asset('assets/images/home/hero/hero-images.png') }}" />
+    <meta property="og:image" content="{{ asset('assets/images/home/meta/tumbnail-home.png') }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Cheche Catering: Katering Terbaik untuk Pernikahan & Acara Anda di Purwokerto" />
     <meta name="twitter:description" content="Cari katering di Purwokerto? Cheche Catering hadir dengan menu lezat, higienis, dan pelayanan profesional untuk segala acara Anda. Pesan sekarang!" />
-    <meta name="twitter:image" content="{{ asset('assets/images/home/hero/hero-images.png') }}" />
+    <meta name="twitter:image" content="{{ asset('assets/images/home/meta/tumbnail-home.png') }}" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

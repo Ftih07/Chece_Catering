@@ -54,7 +54,7 @@
             Jelajahi daftar menu katering lengkap Cheche Catering di Purwokerto. Pilihan menu bervariasi untuk pernikahan, ulang tahun, meeting, dan event lainnya.
         @endif
     " />
-    <meta property="og:image" content="{{ asset('assets/images/og-menu-image.jpg') }}" />
+    <meta property="og:image" content="{{ asset('assets/images/menu/menu-tumbnail.png') }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="website" />
 
@@ -77,7 +77,7 @@
             Lihat daftar menu katering Cheche Catering yang lengkap dan siap memenuhi kebutuhan acara Anda di Purwokerto.
         @endif
     " />
-    <meta name="twitter:image" content="{{ asset('assets/images/og-menu-image.jpg') }}" />
+    <meta name="twitter:image" content="{{ asset('assets/images/menu/menu-tumbnail.png') }}" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
